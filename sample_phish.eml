@@ -1,0 +1,31 @@
+From: "PayPal Account Security" <service@paypal.com>
+Reply-To: support@paypal-verification-center.xyz
+Return-Path: <bounce@paypal-verification-center.xyz>
+Authentication-Results: mx.google.com; spf=fail (google.com: domain of service@paypal.com does not designate 185.220.101.5 as permitted sender); dkim=fail; dmarc=fail
+To: target.user@enterprise.com
+Subject: URGENT: Your PayPal Account Has Been Suspended - Immediate Action Required
+Date: Mon, 16 Nov 2026 09:15:32 -0400
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html>
+<head><title>Account Suspended</title></head>
+<body style="font-family: Arial, sans-serif;">
+  <div style="max-width: 600px; margin: 0 auto; border: 1px solid #ccc; padding: 20px;">
+    <h2 style="color: #c00;">Suspicious Activity Detected: Account Locked</h2>
+    <p>Dear Customer,</p>
+    <p>We detected an <strong>unauthorized access</strong> attempt to your PayPal account from an unrecognized IP address.</p>
+    <p>For your security, your account access has been restricted. <strong>Immediate action required:</strong> You must verify your account within 24 hours to prevent permanent account closure.</p>
+    <p style="margin: 30px 0;">
+      <!-- Mismatched Anchor: Text says paypal.com, href goes to IP -->
+      <a href="http://192.168.1.105/paypal/signin.php?token=9384729" style="background-color: #0070ba; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">
+        https://www.paypal.com/signin/verify-identity
+      </a>
+    </p>
+    <p>Or alternatively visit our backup portal: <a href="http://paypal-account-safety.xyz/login">http://paypal-account-safety.xyz/login</a></p>
+    <p>Please confirm your password and update billing information promptly.</p>
+    <p>Sincerely,<br>PayPal Security & Risk Prevention Team</p>
+  </div>
+</body>
+</html>
